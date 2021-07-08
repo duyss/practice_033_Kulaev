@@ -24,7 +24,9 @@ int main(int argc, char* argv[])
             counter++;
         }
     }
-    cout << "В массиве " << counter << " элементов!";
+    cout << "В массиве " << counter << " элементов!" <<endl;
+    system("pause");
+    return 0;
 }
 
 
