@@ -34,6 +34,7 @@ int main(int argc, char* argv[])
         }
     }
     cout << "В массиве " << counter << " заданных элементов!" <<endl;
+    fileToRead.close();
     system("pause");
     return 0;
 }
